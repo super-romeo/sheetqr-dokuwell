@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Turn a column of links, IDs or text in Google Sheets into hundreds of QR codes at once, placed in the sheet and ready to print as labels.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Sheet QR Batch</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Sheet QR Batch</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Hundreds of QR codes from your Google Sheet in one run — one code per row, ready to print</h1>
-    <p class="sub">For people who keep product lists, asset registers, tickets or event badges in Google Sheets: choose the column, and every row gets its own high-resolution QR code inside the sheet, ready for labels or a print sheet.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For people who keep product lists</p>
+      <h1 class="rise" style="--i:1" data-len="long">Hundreds of QR codes from your Google Sheet in one run&nbsp;<span class="soft">— one code per row, ready to print</span></h1>
+      <p class="rise" style="--i:2">For people who keep product lists, asset registers, tickets or event badges in Google Sheets: choose the column, and every row gets its own high-resolution QR code inside the sheet, ready for labels or a print sheet.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="36" fill="#0a1524" font-weight="600">Sheet QR Batch</text><line x1="80" y1="210" x2="1120" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="250" width="44" height="44" fill="#12397a" rx="8" /><text x="200" y="282" font-size="32" fill="#0a1524">Google Sheet</text><rect x="130" y="360" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="392" font-size="32" fill="#0a1524">QR codes</text><rect x="130" y="470" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="502" font-size="32" fill="#0a1524">Ready to print</text><rect x="200" y="580" width="300" height="24" fill="#dde2ea" rx="12" /><rect x="680" y="250" width="390" height="420" fill="#dfe8f7" rx="20" /><text x="720" y="320" font-size="34" fill="#0a1524" font-weight="600">One run</text><rect x="730" y="440" width="50" height="180" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="810" y="500" width="50" height="120" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="890" y="400" width="50" height="220" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="970" y="530" width="50" height="90" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>People who keep product lists</dd></div>
+      <div><dt>What</dt><dd>QR codes from your</dd></div>
+      <div><dt>How</dt><dd>Inside Google Sheets</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>One run, every row</b><span>Codes for hundreds or thousands of rows at once.</span><br><a class="btn" href="price.html" data-ev="feature_bulk">I need this</a></div>
-      <div class="card"><b>Inside the sheet</b><span>Each code is placed in its row as a high-resolution image.</span><br><a class="btn" href="price.html" data-ev="feature_insheet">I need this</a></div>
-      <div class="card"><b>Changed rows only</b><span>Edit a row and run again — only that code is redrawn.</span><br><a class="btn" href="price.html" data-ev="feature_update">I need this</a></div>
-      <div class="card"><b>Ready to print</b><span>A label layout with the code and a caption from any column.</span><br><a class="btn" href="price.html" data-ev="feature_print">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="50" width="660" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="120" font-size="32" fill="#0a1524" font-weight="600">One run</text><text x="110" y="175" font-size="30" fill="#566174">every row</text><line x1="120" y1="480" x2="680" y2="480" stroke="#b9c3d2" stroke-width="4" /><rect x="160" y="360" width="70" height="120" fill="#dfe8f7" /><rect x="280" y="300" width="70" height="180" fill="#dfe8f7" /><rect x="400" y="240" width="70" height="240" fill="#12397a" /><rect x="520" y="390" width="70" height="90" fill="#dfe8f7" /></svg></div>
+        <h3>One run, every row</h3><p>Codes for hundreds or thousands of rows at once.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_bulk">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="50" width="660" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="120" font-size="32" fill="#0a1524" font-weight="600">Inside the sheet</text><text x="110" y="175" font-size="30" fill="#566174">high-resolution</text><rect x="110" y="230" width="40" height="40" fill="#12397a" rx="8" /><rect x="170" y="238" width="220" height="24" fill="#b9c3d2" rx="12" /><rect x="110" y="320" width="40" height="40" fill="#dfe8f7" rx="8" /><rect x="170" y="328" width="290" height="24" fill="#dde2ea" rx="12" /><rect x="110" y="410" width="40" height="40" fill="#dfe8f7" rx="8" /><rect x="170" y="418" width="360" height="24" fill="#dde2ea" rx="12" /></svg></div>
+        <h3>Inside the sheet</h3><p>Each code is placed in its row as a high-resolution image.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_insheet">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="50" y="80" width="280" height="420" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="470" y="80" width="280" height="420" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><text x="80" y="150" font-size="32" fill="#0a1524" font-weight="600">Changed rows</text><text x="500" y="150" font-size="32" fill="#0a1524" font-weight="600">redrawn</text><line x1="350" y1="280" x2="430" y2="280" stroke="#12397a" stroke-width="6" /><polygon points="430,266 468,280 430,294" fill="#12397a" /><rect x="80" y="210" width="180" height="26" fill="#dde2ea" rx="8" /><rect x="80" y="280" width="140" height="26" fill="#dde2ea" rx="8" /><rect x="80" y="350" width="200" height="26" fill="#dde2ea" rx="8" /><rect x="500" y="210" width="180" height="26" fill="#dde2ea" rx="8" /><rect x="500" y="280" width="140" height="26" fill="#dde2ea" rx="8" /><rect x="500" y="350" width="200" height="26" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Changed rows only</h3><p>Edit a row and run again — only that code is redrawn.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_update">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="50" width="660" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="120" font-size="32" fill="#0a1524" font-weight="600">Ready to print</text><text x="110" y="180" font-size="30" fill="#566174">label layout</text><circle cx="560" cy="160" r="48" fill="#dfe8f7" stroke="#12397a" stroke-width="6" /><line x1="530" y1="160" x2="550" y2="182" stroke="#12397a" stroke-width="6" /><line x1="550" y1="182" x2="590" y2="140" stroke="#12397a" stroke-width="6" /><rect x="110" y="250" width="360" height="28" fill="#b9c3d2" rx="8" /><rect x="110" y="310" width="280" height="28" fill="#dde2ea" rx="8" /><rect x="110" y="370" width="420" height="28" fill="#b9c3d2" rx="8" /><rect x="110" y="430" width="220" height="28" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Ready to print</h3><p>A label layout with the code and a caption from any column.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_print">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A small warehouse keeps 1,800 shelf locations in a Google Sheet. The manager selects the location column, runs the add-on once and gets 1,800 QR codes in the sheet, each next to its location. The label layout prints them on sticker sheets with the location name under each code; when ten shelves are renamed, only those ten codes are redrawn.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A small warehouse keeps 1,800 shelf locations in a Google Sheet. The manager selects the location column, runs the add-on once and gets 1,800 QR codes in the sheet, each next to its location. The label layout prints them on sticker sheets with the location name under each code; when ten shelves are renamed, only those ten codes are redrawn.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Sheet</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">QR codes</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Print</text><rect x="120" y="300" width="960" height="420" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" fill="#0a1524" font-weight="600">shelf locations</text><text x="170" y="470" font-size="32" fill="#566174">label layout</text><rect x="170" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="260" y="530" width="64" height="64" fill="#12397a" rx="12" /><rect x="350" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="440" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="530" y="530" width="64" height="64" fill="#12397a" rx="12" /><rect x="620" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>QR codes are everywhere in small operations: labels on shelves and boxes, asset tags on laptops and tools, tickets and badges for events, links on product packaging and menus. The data behind them usually already lives in a spreadsheet: a list of products, locations, serial numbers or guests.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>QR codes are everywhere in small operations: labels on shelves and boxes, asset tags on laptops and tools, tickets and badges for events, links on product packaging and menus. The data behind them usually already lives in a spreadsheet: a list of products, locations, serial numbers or guests.</p>
     <p>Making one QR code is easy. Making five hundred, each with a different link or ID, is tedious. People copy rows into an online generator one by one, download the images, rename the files and try to match them back to the right row before printing.</p>
     <p>The add-on works where the data already is. You open your Google Sheet, choose the column that holds the links, IDs or text, and pick where the codes should go. One run creates a QR code for every row and places it in the sheet as a high-resolution image.</p>
     <p>Each code stays in the same row as its data, so it is always clear which code belongs to which product, location or person. Rows can be sorted and filtered, and the codes move with them.</p>
@@ -117,31 +151,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>A code can hold a web link, a product or asset ID, a short text, contact details or a link with tracking tags for a campaign. Different rows can hold different kinds of data, and a separate column can set the caption printed under each code, so one sheet can serve shelves, boxes and signs at the same time.</p>
     <p>The service is in preparation: we are checking whether Google Sheets users need it before it is built.</p>
     <p>The add-on creates QR codes from the data in your sheet. What the codes link to, and whether that data is correct, stays with the owner of the sheet.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Who is it for?</h3>
-    <p>Anyone who keeps product, asset, ticket or guest lists in Google Sheets and needs a QR code for each row.</p>
-    <h3>How many codes can I create at once?</h3>
-    <p>Hundreds or thousands — one per row of the column you choose.</p>
-    <h3>Where do the codes go?</h3>
-    <p>Into the sheet, as high-resolution images in the same row as their data.</p>
-    <h3>Can I print labels?</h3>
-    <p>Yes. A label layout puts each code with a caption from any column, ready to print or save as a file.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether Google Sheets users need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Who is it for?</h3><p>Anyone who keeps product, asset, ticket or guest lists in Google Sheets and needs a QR code for each row.</p></div>
+      <div class="split flip"><h3>How many codes can I create at once?</h3><p>Hundreds or thousands — one per row of the column you choose.</p></div>
+      <div class="split flip"><h3>Where do the codes go?</h3><p>Into the sheet, as high-resolution images in the same row as their data.</p></div>
+      <div class="split flip"><h3>Can I print labels?</h3><p>Yes. A label layout puts each code with a caption from any column, ready to print or save as a file.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether Google Sheets users need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Create your first batch</h2>
-    <p><label>QR codes you need per month<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Up to 100</option><option>100–1,000</option><option>1,000–10,000</option><option>More than 10,000</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Create your first batch</h2>
+    </div>
+    <div class="tile stack">
+      <label>QR codes you need per month<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Up to 100</option><option>100–1,000</option><option>1,000–10,000</option><option>More than 10,000</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Sheet QR Batch</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">QR codes created from the data in your Google Sheet. The content of the codes stays with the owner of the sheet.</p>
+  <p>QR codes created from the data in your Google Sheet. The content of the codes stays with the owner of the sheet.</p>
 </div></footer>
 
 </body>
